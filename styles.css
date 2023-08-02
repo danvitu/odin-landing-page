@@ -146,7 +146,7 @@ button.signup {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 50px;
+  padding: 10px 100px;
   border-radius: 5px;
 }
 
@@ -157,7 +157,7 @@ button.signup {
 }
 
 .signupbottom {
-  margin: 30px;
+  margin: 30px 0 30px 30px;
   padding: 5px 20px;
   border-radius: 5px;
   border: 1;
@@ -175,5 +175,9 @@ button.signup {
 
 .calltotext {
   font-weight: 800;
+  margin: 0;
+}
+
+.subcalltext {
   margin: 0;
 }
