@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -58,7 +58,6 @@ border: 1px solid white; */
 
 .cover {
   flex-basis: 1200px;
-  /* height: 500px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +78,7 @@ border: 1px solid white; */
 }
 
 .cover-left p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 18px;
   color: #F9FAF8;
 }
@@ -89,12 +88,10 @@ border: 1px solid white; */
 }
 
 .cover-right img {
-  
   width: 300px;
   min-height: 100%;
   min-width: 100%;
 }
-
 
 button {
   background-color: #3882F6;
@@ -102,5 +99,94 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
   border: 0;
+  cursor: pointer;
 }
 
+/* Gods */
+
+.gods-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.gods-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 10px;
+}
+
+.one-god p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.god {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/* Quote */
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 10px;
+  background-color: #E5E7EB;
+}
+
+.quote-block {
+  width: 800px;
+}
+
+.quote {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 100;
+  color: #1F2937;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Call to action */
+
+.call-to-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 10px;
+}
+
+.blue-container {
+  border-radius: 10px;
+  flex-basis: 900px;
+  background-color: #3882F6;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  color: white;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 10px 15px;
+  color: white;
+}
