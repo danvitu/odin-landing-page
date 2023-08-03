@@ -1,183 +1,106 @@
-body {
-  font-family: Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
 }
 
-.top {
+/* for debugging  
+border: 1px solid white; */
+
+/* Header */
+
+.header-container {
+  background-color: #1F2937;
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
-  background-color: #1F2937;
-  padding: 10px 150px 100px;
-  gap: 30px;
 }
 
-.lefttop {
-  flex: auto;
-  max-width: 300px;
-}
-
-.headerlogo {
-  margin-bottom: 100px;
-  color: #F9FAF8;
-  font-size: 24px;
-}
-
-.righttop {
+.menu {
+  flex-basis: 1200px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
 }
 
-.maintext {
-  font-size: 48px;
-  font-weight: bold;
+.logo {
+  font-size: 24px;
   color: #F9FAF8;
-  margin: 0;
 }
 
-.secondarytext {
+.links ul{
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.links a {
+  text-decoration: none;
   color: #E5E7EB;
   font-size: 18px;
 }
 
-.menu {
-  display: flex;
-  gap: 15px;
-  list-style: none;
-  margin-bottom: 100px;
-}
+/* Cover */
 
-ul {
-  margin: 0;
-  color: #F9FAF8
-}
-
-img {
-  height: 200px;
-}
-
-button.signup {
-  background-color: #3882F6;
-  color: white;
-  padding: 5px 20px;
-  border: 0;
-  border-radius: 5px;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 0 ;
-}
-
-.informationheader {
-  padding: 0px 0px 50px;
-  font-size: 36px;
-  color: #1F2937;
-  font-weight: 700;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.card {
-  width: 100px;
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-.picinfo {
-  border: 2px;
-  border-color: #3882F6;
-  border-style: solid;
-  border-radius: 10px;
-  width: 100px;
-  height: 100px;
-}
-
-.quote {
-  display: flex;
-  justify-content: center;
-  background-color: #E5E7EB;
-}
-
-.quotecontainer {
-  display: flex;
-  flex-direction: column;
-  width: 600px;
-  padding: 30px;
-}
-
-.quotetext {
-  margin-top: 50px;
-  margin-bottom: 0;
-  font-size: 16px;
-  font-style: italic;
-  color: #1F2937;
-  flex: 1;
-}
-
-.authorquote {
-  margin: 0;
-  text-align: right;
-  margin-top: 5px;
-  margin-bottom: 50px;
-}
-
-.callblock {
+.cover-container {
+  background-color: #1F2937;
   display: flex;
   justify-content: center;
   padding: 50px 0;
 }
 
-.bluecontainer {
+.cover {
+  flex-basis: 1200px;
+  /* height: 500px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 20px;
+}
+
+.cover-left {
+  flex: 1;
+}
+
+.cover-left h1 {
+  margin-bottom: 5px;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.cover-left p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.cover-right {
+  flex: 1;
+}
+
+.cover-right img {
+  
+  width: 300px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+
+button {
   background-color: #3882F6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 100px;
+  color: #F9FAF8;
+  padding: 10px 20px;
   border-radius: 5px;
+  border: 0;
 }
 
-.textcontainer {
-  display: flex;
-  color: white;
-  align-items: center;
-}
-
-.signupbottom {
-  margin: 30px 0 30px 30px;
-  padding: 5px 20px;
-  border-radius: 5px;
-  border: 1;
-  border-color: white;
-  background-color: transparent;
-  color: white;
-}
-
-.footer {
-  background-color: #1F2937;
-  display: flex;
-  justify-content: center;
-  color: white
-}
-
-.calltotext {
-  font-weight: 800;
-  margin: 0;
-}
-
-.subcalltext {
-  margin: 0;
-}
