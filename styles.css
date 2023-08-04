@@ -93,7 +93,7 @@ border: 1px solid white; */
   min-width: 100%;
 }
 
-button {
+.signup {
   background-color: #3882F6;
   color: #F9FAF8;
   padding: 10px 20px;
@@ -117,19 +117,22 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  padding: 50px 10px;
+  padding: 50px 0 0;
 }
 
 .one-god p {
   text-align: center;
-  margin-top: 5px;
+  margin: 10px 0;
+  font-weight: 800;
+  font-size: 24px;
 }
 
-.god {
-  width: 200px;
-  height: 200px;
-  border: 1px solid black;
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937
 }
+
 
 /* Quote */
 
@@ -173,11 +176,33 @@ button {
   background-color: #3882F6;
   padding: 50px 100px;
   display: flex;
+  color: white;
   justify-content: space-between;
+  /* gap: 50px; */
+  flex-wrap: wrap;
+}
+
+.text-in {
+  flex-basis: 80%;
 }
 
 h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.text-in p {
+  margin-bottom: 15px;
+}
+
+.signup-call {
+  border-color: white;
+  border-radius: 5px;
+  background-color: #3882F6;
   color: white;
+  padding: 10px;
+  flex-shrink: 0;
+  align-self: center;
 }
 
 /* Footer */
@@ -190,3 +215,4 @@ h3 {
   padding: 10px 15px;
   color: white;
 }
+
