@@ -1,1 +1,1 @@
-# odin-landing-page
+Norse mythology landing page.
